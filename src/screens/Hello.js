@@ -1,6 +1,6 @@
 import React ,{useState} from "react";
-import {View ,Text,StyleSheet,ScrollView,Image,SafeAreaView,TouchableOpacity,Dimensions} from 'react-native';
-import {images} from './../constants/index'
+import {View ,Text,StyleSheet,ScrollView,Image,SafeAreaView,TouchableOpacity,Dimensions,Modal,Pressable,FlatList} from 'react-native';
+import {images} from './../../constants/index'
 
 const Widthh = Dimensions.get('window').width;
 const Hiehtt =Dimensions.get('window').height;
