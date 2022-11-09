@@ -288,7 +288,7 @@ keyExtractor={item => item.id}
                       <Text> Forget Password?</Text>
                     </View>
                   </View>
-                  <TouchableOpacity
+                  {/* <TouchableOpacity
                     onPress={handleSubmit}
                     // onPress={() => {
                     //   handle(text,passs);
@@ -308,7 +308,7 @@ keyExtractor={item => item.id}
                       borderRadius: 15,
                     }}>
                     <Text style={{color: 'white', fontSize: 17}}>Login</Text>
-                  </TouchableOpacity>
+                  </TouchableOpacity> */}
                 </>
               )}
             </Formik>
@@ -413,7 +413,7 @@ keyExtractor={item => item.id}
         )}
 
         <View style={styles.foView_2}>
-          {/* <TouchableOpacity
+          <TouchableOpacity
             // onPress={() => {
             //   handle(text,passs);
             //   setIsp(true)
@@ -430,7 +430,7 @@ keyExtractor={item => item.id}
               borderRadius: 15,
             }}>
             <Text style={{color: 'white', fontSize: 17}}>Login</Text>
-          </TouchableOpacity> */}
+          </TouchableOpacity>
 
           <View
             style={{
